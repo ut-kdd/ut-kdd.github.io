@@ -1,0 +1,5 @@
+[hidden] { display: none !important; }
+a:not([href]) { cursor: default; text-decoration: none; }
+.page-grid.no-sidebar { grid-template-columns: minmax(0, 1fr); }
+.author-contact > :not([hidden]) + :not([hidden]) { margin-inline-start: .4em; }
+.course-layout.no-aside { grid-template-columns: minmax(0, 1fr); }

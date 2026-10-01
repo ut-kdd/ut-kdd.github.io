@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academic research laboratory homepage">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;1,400&amp;family=Source+Sans+3:wght@400;500;600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="common.css">
+    <title>Research Laboratory</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <nav class="screen-nav" aria-label="Institutional navigation">
+      <a id="universityLink" href="https://ut.ac.ir/en" class="university-brand"><img src="assets/university-of-tehran-logo.png" alt="" width="42" height="42"><span id="universityName">University of Tehran</span></a>
+      <span class="institution-path"><span id="collegeName">College</span><span aria-hidden="true">›</span><span id="departmentName">School</span></span>
+    </nav>
+
+    <main class="paper" id="main-content">
+      <header class="title-block intro" id="top">
+        <h1 id="labName">Research Laboratory</h1>
+        <div class="intro-copy">
+          <p class="intro-lead" id="heroLead"></p>
+          <p class="research-statement" id="heroSummary"></p>
+        </div>
+        <figure class="lab-visual" id="labVisual">
+          <img id="labImage" src="assets/lab-workspace.png" alt="Illustrative research workspace with a laptop and notebook" width="2048" height="1024">
+          <figcaption id="labImageCaption">Illustrative image</figcaption>
+        </figure>
+      </header>
+
+      <nav class="primary-nav" id="primaryNavigation" aria-label="Page contents">
+        <span>Contents:</span>
+        <a href="#research" data-ui="lab.label2">Research</a>
+        <a href="#join" data-ui="lab.joinNav">Join the lab</a>
+        <a href="#publications" data-ui="lab.label3">Publications</a>
+        <a href="#people" data-ui="lab.label4">People</a>
+        <a href="#contact" data-ui="lab.label5">Contact</a>
+      </nav>
+
+      <div class="page-grid">
+        <div class="main-column">
+          <section class="document-section content-section" id="research">
+            <header class="section-heading">
+              <h2><span>1.</span> <b data-ui="lab.label9">Research areas</b></h2>
+            </header>
+            <div class="research-list" id="researchList"></div>
+          </section>
+
+          <section class="document-section content-section" id="join">
+            <header class="section-heading">
+              <h2><span>02</span> <b data-ui="lab.joinHeading">Prospective students</b></h2>
+            </header>
+            <div class="join-content">
+              <p id="welcomeText"></p>
+              <p id="applicationText"></p>
+              <a class="small-link application-link" id="applicationEmail" href="#" data-ui="lab.applyButton">Email the lab</a>
+            </div>
+          </section>
+
+          <section class="document-section content-section" id="publications">
+            <header class="section-heading section-heading--action">
+              <h2><span>04</span> <b data-ui="lab.label10">Selected publications</b></h2>
+              <a class="small-link" id="allPublicationsLink" href="#" data-ui="lab.label20">Complete publication record</a>
+            </header>
+            <div class="publication-list" id="publicationList"></div>
+          </section>
+
+          <section class="document-section content-section" id="people">
+            <header class="section-heading">
+              <h2><span>05</span> <b data-ui="lab.label11">People</b></h2>
+            </header>
+            <div class="people-group">
+              <h3 data-ui="lab.label13">Current members</h3>
+              <div class="people-table-head" aria-hidden="true"><span>Member</span><span>Research topic</span></div>
+              <div class="people-list" id="studentList"></div>
+            </div>
+            <div class="people-group people-group--secondary">
+              <h3 data-ui="lab.label14">Alumni</h3>
+              <div class="people-list" id="alumniList"></div>
+            </div>
+          </section>
+        </div>
+
+        <aside class="sidebar" aria-label="Laboratory information">
+          <section class="sidebar-section profile" aria-labelledby="piHeading" id="profile">
+            <p class="sidebar-kicker" data-ui="lab.label15">Principal investigator</p>
+            <div class="profile__identity">
+              <div>
+                <h2 id="piHeading"><a id="professorPageLink" href="#"><span id="professorName">Professor Name</span></a></h2>
+              </div>
+            </div>
+            <div class="profile__links" id="professorLinks"></div>
+          </section>
+
+          <section class="sidebar-section contact" id="contact" aria-labelledby="contactHeading">
+            <h2 id="contactHeading" data-ui="lab.label17">Contact</h2>
+            <dl class="contact-list">
+              <div><dt data-ui="lab.label18">Email</dt><dd><a id="emailLink" href="mailto:lab@example.edu">lab@example.edu</a></dd></div>
+              <div><dt data-ui="lab.label19">Address</dt><dd id="addressText"></dd></div>
+            </dl>
+            <div class="social-links" id="socialLinks"></div>
+          </section>
+        </aside>
+      </div>
+
+      <footer class="site-footer">
+        <p><strong id="footerLabName">Research Laboratory</strong> — Academic homepage, <span id="currentYear"></span></p>
+        <a href="#top">Back to top</a>
+      </footer>
+    </main>
+
+    <button class="menu-button" id="menuButton" type="button" aria-expanded="false" aria-controls="primaryNavigation">
+      <span class="sr-only" data-ui="lab.label21">Open navigation</span>
+    </button>
+    <script src="content.js"></script>
+    <script src="content-utils.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
