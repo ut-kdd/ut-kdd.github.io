@@ -7,7 +7,7 @@ window.LAB_CONTENT = {
     department: "School of Intelligent Systems",
     location: "College of Interdisciplinary Science and Technology", // University of Tehran → College → School
     website: "#",
-    professorSiteUrl: "#",
+    professorSiteUrl: "haratizadeh.github.io",
     heroLead: "Go deeper into learning.",
     heroSummary: "Explore the limits of familiar ideas, ask new questions, and enjoy creating what comes next.",
     image: "assets/lab-workspace.png",
