@@ -7,7 +7,7 @@ window.LAB_CONTENT = {
     department: "School of Intelligent Systems",
     location: "College of Interdisciplinary Science and Technology", // University of Tehran → College → School
     website: "#",
-    professorSiteUrl: "haratizadeh.github.io",
+    professorSiteUrl: "https://haratizadeh.github.io",
     heroLead: "Go deeper into learning.",
     heroSummary: "Explore the limits of familiar ideas, ask new questions, and enjoy creating what comes next.",
     image: "assets/lab-workspace.png",
@@ -19,7 +19,7 @@ window.LAB_CONTENT = {
   professor: {
     name: "Saman Haratizadeh",
     role: "Principal investigator",
-    siteUrl: "haratizadeh.github.io"
+    siteUrl: "https://haratizadeh.github.io"
   },
   research: [
     { number: "01", title: "Learning algorithms", description: "Design and evaluation of machine learning and deep learning methods." },
