@@ -19,7 +19,7 @@ window.LAB_CONTENT = {
   professor: {
     name: "Saman Haratizadeh",
     role: "Principal investigator",
-    siteUrl: "#"
+    siteUrl: "haratizadeh.github.io"
   },
   research: [
     { number: "01", title: "Learning algorithms", description: "Design and evaluation of machine learning and deep learning methods." },
