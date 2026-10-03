@@ -130,13 +130,6 @@
     publicationList.append(article);
   });
 
-  const allPublicationsLink = byId("allPublicationsLink");
-  window.LabSite.configureLink(allPublicationsLink, links.fullPublications);
-  if (externalLink(links.fullPublications)) {
-    allPublicationsLink.target = "_blank";
-    allPublicationsLink.rel = "noopener noreferrer";
-  }
-
   const renderPeople = (items, targetId, showTopics = true) => {
     const target = byId(targetId);
     items.forEach((person) => {

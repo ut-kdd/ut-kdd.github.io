@@ -18,7 +18,7 @@ window.LAB_CONTENT = {
   },
   professor: {
     name: "Saman Haratizadeh",
-    role: "Principal investigator",
+    role: "Lab director",
     siteUrl: "https://haratizadeh.github.io"
   },
   research: [
@@ -87,7 +87,7 @@ window.LAB_CONTENT = {
     { name: "Zeinab Sadat Sadrolhefazi", degree: "MSc", url: "", linkedin: "" },
     { name: "Zeynab Ghaffar Nasab", degree: "MSc", url: "", linkedin: "https://linkedin.com/in/zeinab-ghaffarnasab-aaa82a8b" }
   ],
-  // Complete lab publication record since 2013. Add a paper URL when available.
+  // Lab publication record from 2015 onward. Add a paper URL when available.
   publications: [
     {"year":"2026","title":"Structural–temporal graph transformer contrastive learning for next-day financial movement prediction","authors":"Iman Barazandeh, Saman Haratizadeh","venue":"Engineering Applications of Artificial Intelligence","url":""},
     {"year":"2025","title":"A temporal graph-based contrastive approach for financial time series forecasting","authors":"Iman Barazandeh, Saman Haratizadeh, Georgios Sermpinis","venue":"Engineering Applications of Artificial Intelligence","url":""},
@@ -124,21 +124,19 @@ window.LAB_CONTENT = {
     {"year":"2017","title":"TasteMiner: Mining partial tastes for neighbor-based collaborative filtering","authors":"Bita Shams, Saman Haratizadeh","venue":"Journal of Intelligent Information Systems","url":""},
     {"year":"2016","title":"Analysis and Prediction of Fluctuations for Sector Price Indices with Cross-Correlation and Association Mining Based Networks: Tehran Stock Exchange Case","authors":"Arash Negahdari Kia, Saman Haratizadeh, Zainabolhoda Heshmati","venue":"Bonfring International Journal of Industrial Engineering and Management Science","url":"https://doi.org/10.9756/BIJIEMS.10437"},
     {"year":"2016","title":"SibRank: Signed bipartite network analysis for neighbor-based collaborative ranking","authors":"Bita Shams, Saman Haratizadeh","venue":"Physica A: Statistical Mechanics and its Applications","url":""},
-    {"year":"2015","title":"An XCS-Based Algorithm for Classifying Imbalanced Datasets","authors":"Hooman Sanatkar, Saman Haratizadeh","venue":"International Journal of Intelligent Systems","url":""},
-    {"year":"2013","title":"An Analytical Framework for Web Information Filtering Techniques","authors":"Narges Sadat Khozooii, Saman Haratizadeh, Mohammad Reza Keyvanpour","venue":"International Journal of Hybrid Information Technology","url":""},
-    {"year":"2013","title":"Prediction of USD/JPY exchange rate time series directional status by KNN with dynamic time warping AS distance function","authors":"Arash Negahdari Kia, Saman Haratizadeh, Hadi Zare","venue":"Bonfring International Journal of Data Mining","url":"https://doi.org/10.9756/BIJDM.4658"}
+    {"year":"2015","title":"An XCS-Based Algorithm for Classifying Imbalanced Datasets","authors":"Hooman Sanatkar, Saman Haratizadeh","venue":"International Journal of Intelligent Systems","url":""}
   ],
   datasets: [
     // Edit the dataset details and repository URL, then set enabled to true.
     { enabled: false, slug: "example-dataset", title: "Example dataset", description: "Short description of the dataset.", year: "", version: "", type: "", size: "", license: "", status: "", overview: "Describe the dataset and how it was collected.", contents: [], intendedUse: "", limitations: "", creators: [], citation: "", keywords: [], links: [{ label: "Dataset repository", url: "https://github.com/YOUR-LAB-USERNAME/example-dataset" }], relatedPublications: [] }
   ],
-  links: { linkedin: "", github: "", bluesky: "", codeCollection: "", datasetCollection: "", fullPublications: "https://scholar.google.com/citations?user=e603zvIAAAAJ&hl=en" },
+  links: { linkedin: "", github: "", bluesky: "", codeCollection: "", datasetCollection: "", fullPublications: "" },
   settings: { sections: { lab: { top: true, research: true, publications: true, people: true, join: true, profile: true, contact: true } } },
   ui: { lab: {
     label1: "About", label2: "Research areas", resourcesNav: "Code & datasets", label3: "Publications", label4: "Members", joinNav: "Prospective students", label5: "Contact",
     label8: "About the laboratory", label9: "Research areas", label12: "The research program develops methods for temporal, relational, and high-dimensional data.",
     resourcesHeading: "Code and datasets",
-    label10: "Publications", label20: "Google Scholar", label11: "Members", label13: "Current members", label14: "Alumni",
-    joinHeading: "Prospective students", applyButton: "Email the lab", label15: "Principal investigator", label17: "Contact", label18: "Email", label19: "Address"
+    label10: "Publications", label11: "Members", label13: "Current members", label14: "Alumni",
+    joinHeading: "Prospective students", applyButton: "Email the lab", label15: "Lab director", label17: "Contact", label18: "Email", label19: "Address"
   } }
 };
