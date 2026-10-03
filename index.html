@@ -35,25 +35,48 @@
 
       <nav class="primary-nav" id="primaryNavigation" aria-label="Page contents">
         <span>Contents:</span>
-        <a href="#research" data-ui="lab.label2">Research</a>
-        <a href="#join" data-ui="lab.joinNav">Join the lab</a>
+        <a href="#profile" data-ui="lab.label15">Principal investigator</a>
+        <a href="#research" data-ui="lab.label2">Research areas</a>
+        <a href="#people" data-ui="lab.label4">Members</a>
+        <a href="#join" data-ui="lab.joinNav">Prospective students</a>
         <a href="#publications" data-ui="lab.label3">Publications</a>
-        <a href="#people" data-ui="lab.label4">People</a>
         <a href="#contact" data-ui="lab.label5">Contact</a>
       </nav>
 
       <div class="page-grid">
+        <aside class="sidebar sidebar--profile" aria-label="Professor">
+          <section class="sidebar-section profile" aria-labelledby="piHeading" id="profile">
+            <p class="sidebar-kicker" data-ui="lab.label15">Principal investigator</p>
+            <div class="profile__identity">
+              <h2 id="piHeading"><a id="professorPageLink" href="#"><span id="professorName">Professor Name</span></a></h2>
+            </div>
+            <div class="profile__links" id="professorLinks"></div>
+          </section>
+        </aside>
+
         <div class="main-column">
           <section class="document-section content-section" id="research">
             <header class="section-heading">
-              <h2><span>1.</span> <b data-ui="lab.label9">Research areas</b></h2>
+              <h2><span>01</span> <b data-ui="lab.label9">Research areas</b></h2>
             </header>
             <div class="research-list" id="researchList"></div>
           </section>
 
+          <section class="document-section content-section" id="people">
+            <header class="section-heading">
+              <h2><span>02</span> <b data-ui="lab.label11">Members</b></h2>
+            </header>
+            <div class="people-group">
+              <h3 data-ui="lab.label13">Current members</h3>
+              <div class="people-table-head" aria-hidden="true"><span>Member</span><span>Research topic</span></div>
+              <div class="people-list" id="studentList"></div>
+              <a class="small-link alumni-link" href="alumni.html">Alumni →</a>
+            </div>
+          </section>
+
           <section class="document-section content-section" id="join">
             <header class="section-heading">
-              <h2><span>02</span> <b data-ui="lab.joinHeading">Prospective students</b></h2>
+              <h2><span>03</span> <b data-ui="lab.joinHeading">Prospective students</b></h2>
             </header>
             <div class="join-content">
               <p id="welcomeText"></p>
@@ -64,39 +87,14 @@
 
           <section class="document-section content-section" id="publications">
             <header class="section-heading section-heading--action">
-              <h2><span>04</span> <b data-ui="lab.label10">Selected publications</b></h2>
-              <a class="small-link" id="allPublicationsLink" href="#" data-ui="lab.label20">Complete publication record</a>
+              <h2><span>04</span> <b data-ui="lab.label10">Publications</b></h2>
+              <a class="small-link" id="allPublicationsLink" href="#" data-ui="lab.label20">Google Scholar</a>
             </header>
             <div class="publication-list" id="publicationList"></div>
           </section>
-
-          <section class="document-section content-section" id="people">
-            <header class="section-heading">
-              <h2><span>05</span> <b data-ui="lab.label11">People</b></h2>
-            </header>
-            <div class="people-group">
-              <h3 data-ui="lab.label13">Current members</h3>
-              <div class="people-table-head" aria-hidden="true"><span>Member</span><span>Research topic</span></div>
-              <div class="people-list" id="studentList"></div>
-            </div>
-            <div class="people-group people-group--secondary">
-              <h3 data-ui="lab.label14">Alumni</h3>
-              <div class="people-list" id="alumniList"></div>
-            </div>
-          </section>
         </div>
 
-        <aside class="sidebar" aria-label="Laboratory information">
-          <section class="sidebar-section profile" aria-labelledby="piHeading" id="profile">
-            <p class="sidebar-kicker" data-ui="lab.label15">Principal investigator</p>
-            <div class="profile__identity">
-              <div>
-                <h2 id="piHeading"><a id="professorPageLink" href="#"><span id="professorName">Professor Name</span></a></h2>
-              </div>
-            </div>
-            <div class="profile__links" id="professorLinks"></div>
-          </section>
-
+        <aside class="sidebar sidebar--contact" aria-label="Contact information">
           <section class="sidebar-section contact" id="contact" aria-labelledby="contactHeading">
             <h2 id="contactHeading" data-ui="lab.label17">Contact</h2>
             <dl class="contact-list">

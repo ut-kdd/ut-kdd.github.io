@@ -14,7 +14,7 @@
     .join("")
     .toUpperCase();
 
-  const { lab, professor, research, opportunities, students, alumni, links } = content;
+  const { lab, professor, research, opportunities, students, links } = content;
   // Keep the rest of the homepage working when publications are omitted.
   const publications = Array.isArray(content.publications) ? content.publications : [];
 
@@ -99,14 +99,18 @@
 
     const body = document.createElement("div");
     const heading = document.createElement("h3");
-    const titleLink = document.createElement("a");
-    titleLink.href = item.url || "#";
-    titleLink.textContent = item.title;
-    if (externalLink(item.url)) {
-      titleLink.target = "_blank";
-      titleLink.rel = "noopener noreferrer";
+    if (item.url) {
+      const titleLink = document.createElement("a");
+      titleLink.href = item.url;
+      titleLink.textContent = item.title;
+      if (externalLink(item.url)) {
+        titleLink.target = "_blank";
+        titleLink.rel = "noopener noreferrer";
+      }
+      heading.append(titleLink);
+    } else {
+      heading.textContent = item.title;
     }
-    heading.append(titleLink);
 
     const authors = document.createElement("p");
     authors.textContent = item.authors;
@@ -186,7 +190,6 @@
   };
 
   renderPeople(students, "studentList");
-  renderPeople(alumni, "alumniList", false);
 
   setText("contactText", lab.contactText);
   setText("addressText", lab.address);

@@ -87,18 +87,58 @@ window.LAB_CONTENT = {
     { name: "Zeinab Sadat Sadrolhefazi", degree: "MSc", url: "", linkedin: "" },
     { name: "Zeynab Ghaffar Nasab", degree: "MSc", url: "", linkedin: "https://linkedin.com/in/zeinab-ghaffarnasab-aaa82a8b" }
   ],
-  publications: [],
+  // Complete lab publication record since 2013. Add a paper URL when available.
+  publications: [
+    {"year":"2026","title":"Structural–temporal graph transformer contrastive learning for next-day financial movement prediction","authors":"Iman Barazandeh, Saman Haratizadeh","venue":"Engineering Applications of Artificial Intelligence","url":""},
+    {"year":"2025","title":"A temporal graph-based contrastive approach for financial time series forecasting","authors":"Iman Barazandeh, Saman Haratizadeh, Georgios Sermpinis","venue":"Engineering Applications of Artificial Intelligence","url":""},
+    {"year":"2025","title":"Bridging Univariate Foundation Models and Multivariate Financial Signals for Stock Price Prediction","authors":"Fatemeh Chitsaz, Saman Haratizadeh","venue":"Journal of Computing and Security","url":""},
+    {"year":"2025","title":"Dual Adaptation of Time-Series Foundation Models for Financial Forecasting","authors":"Fatemeh Chitsaz, Saman Haratizadeh","venue":"1st ICML Workshop on Foundation Models for Structured Data","url":""},
+    {"year":"2025","title":"FaVC: A Validated, Transcribed, Parallel Farsi Speech Dataset for Voice Conversion","authors":"Mina Serajian, Saeed Najafzadeh Rahaghi, Hadi Veisi, Saman Haratizadeh","venue":"INTERSPEECH","url":""},
+    {"year":"2025","title":"FinTNet: From Tweets to Trades","authors":"Dorsa Tavakoli, Saman Haratizadeh","venue":"2025 15th International Conference on Computer and Knowledge Engineering (ICCKE)","url":"https://doi.org/10.1109/ICCKE68588.2025.11273867"},
+    {"year":"2025","title":"Learning to Generalize and Specialize: A Dual-Module Architecture for Adaptation in Financial Forecasting","authors":"Saman Haratizadeh, Fatemeh Chitsaz","venue":"SSRN working paper","url":"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5846290"},
+    {"year":"2025","title":"Learning What Matters First: Sequential Adaptation of Time Series Foundation Models for Robust Financial Forecasting","authors":"Fatemeh Chitsaz, Saman Haratizadeh","venue":"1st ICML Workshop on Foundation Models for Structured Data","url":""},
+    {"year":"2024","title":"GanjNet: Leveraging Network Modeling with Large Language Models for Persian Word Sense Induction","authors":"AmirMohammad Kouyeshpour, Hadi Veisi, Saman Haratizadeh","venue":"2024 15th International Conference on Information and Knowledge Technology (IKT)","url":""},
+    {"year":"2024","title":"LLM-driven feature extraction for stock market prediction: A case study of Tehran Stock Exchange","authors":"Siavash Hosseinpour Saffarian, Saman Haratizadeh","venue":"2024 15th International Conference on Information and Knowledge Technology (IKT)","url":""},
+    {"year":"2024","title":"STAR: A Session-Based Time-Aware Recommender System","authors":"Reza Yeganegi, Saman Haratizadeh, Morteza Ebrahimi","venue":"Neurocomputing","url":"https://www.sciencedirect.com/science/article/abs/pii/S0925231223012274"},
+    {"year":"2023","title":"A novel machine learning approach for portfolio optimization","authors":"Saman Haratizadeh, Fatemeh Rezaee","venue":"Journal of decisions and operations research","url":""},
+    {"year":"2023","title":"GPS: A graph-based approach to portfolio selection","authors":"Fatemeh Rezaee, Jalal Ahmadi, Saman Haratizadeh","venue":"2023 28th international computer conference, computer society of Iran (CSICC)","url":""},
+    {"year":"2023","title":"Stock Price Movement Prediction Using Directed Graph Attention Network","authors":"Alireza Jafari, Saman Haratizadeh","venue":"Nashriyyah-i Muhandisi-i Barq va Muhandisi-i Kampyutar-i Iran","url":""},
+    {"year":"2022","title":"Attention-based recommendation on graphs","authors":"Taher Hekmatfar, Saman Haratizadeh, Parsa Razban, Sama Goliaei","venue":"arXiv preprint arXiv:2201.05499","url":"https://arxiv.org/abs/2201.05499"},
+    {"year":"2022","title":"GCNET: Graph-based prediction of stock price movement using graph convolutional network","authors":"Alireza Jafari, Saman Haratizadeh","venue":"Engineering Applications of Artificial Intelligence","url":""},
+    {"year":"2022","title":"ISPREC++: Learning Edge Type Importance in Network-Oriented Paper Recommendation","authors":"Elaheh Jafari, Bita Shams, Saman Haratizadeh","venue":"AUT Journal of Modeling and Simulation","url":""},
+    {"year":"2022","title":"NETpred: Network-based modeling and prediction of multiple connected market indices","authors":"Alireza Jafari, Saman Haratizadeh","venue":"arXiv preprint arXiv:2212.05916","url":"https://arxiv.org/abs/2212.05916"},
+    {"year":"2021","title":"Embedding ranking-oriented recommender system graphs","authors":"Taher Hekmatfar, Saman Haratizadeh, Sama Goliaei","venue":"Expert Systems with Applications","url":""},
+    {"year":"2021","title":"ISPREC: Integrated Scientific Paper Recommendation using heterogeneous information network","authors":"Elaheh Jafari, Bita Shams, Saman Haratizadeh","venue":"2021 12th International Conference on Information and Knowledge Technology (IKT)","url":""},
+    {"year":"2020","title":"Network-based direction of movement prediction in financial markets","authors":"Arash Negahdari Kia, Saman Haratizadeh, Saeed Bagheri Shouraki","venue":"Engineering Applications of Artificial Intelligence","url":""},
+    {"year":"2020","title":"Representation extraction and deep neural recommendation for collaborative filtering","authors":"Arash Khoeini, Saman Haratizadeh, Ehsan Hoseinzade","venue":"arXiv preprint arXiv:2012.04979","url":"https://arxiv.org/abs/2012.04979"},
+    {"year":"2019","title":"CNNpred: CNN-based stock market prediction using a diverse set of variables","authors":"Ehsan Hoseinzade, Saman Haratizadeh","venue":"Expert systems with applications","url":""},
+    {"year":"2019","title":"Entity representation for pairwise collaborative ranking using restricted Boltzmann machine","authors":"Naieme Hazrati, Bita Shams, Saman Haratizadeh","venue":"Expert Systems with Applications","url":""},
+    {"year":"2019","title":"U-cnnpred: A universal cnn-based predictor for stock markets","authors":"Ehsan Hoseinzade, Saman Haratizadeh, Arash Khoeini","venue":"arXiv preprint arXiv:1911.12540","url":"https://arxiv.org/abs/1911.12540"},
+    {"year":"2018","title":"A hybrid supervised semi-supervised graph-based model to predict one-day ahead movement of global stock markets and commodity prices","authors":"Arash Negahdari Kia, Saman Haratizadeh, Saeed Bagheri Shouraki","venue":"Expert Systems with Applications","url":""},
+    {"year":"2018","title":"GEMRank: Global Entity Embedding For Collaborative Filtering","authors":"Arash Khoeini, Bita Shams, Saman Haratizadeh","venue":"arXiv preprint arXiv:1811.01686","url":"https://arxiv.org/abs/1811.01686"},
+    {"year":"2018","title":"GraphLoc: A graph based approach for automatic detection of significant locations from GPS trajectory data","authors":"Bita Shams, Saman Haratizadeh","venue":"Journal of Spatial Science","url":""},
+    {"year":"2018","title":"Item-based collaborative ranking","authors":"Bita Shams, Saman Haratizadeh","venue":"Knowledge-Based Systems","url":""},
+    {"year":"2018","title":"Reliable graph-based collaborative ranking","authors":"Bita Shams, Saman Haratizadeh","venue":"Information Sciences","url":""},
+    {"year":"2017","title":"Graph-based collaborative ranking","authors":"Bita Shams, Saman Haratizadeh","venue":"Expert Systems with Applications","url":""},
+    {"year":"2017","title":"IteRank: An iterative network-oriented approach to neighbor-based collaborative ranking","authors":"Bita Shams, Saman Haratizadeh","venue":"Knowledge-Based Systems","url":""},
+    {"year":"2017","title":"TasteMiner: Mining partial tastes for neighbor-based collaborative filtering","authors":"Bita Shams, Saman Haratizadeh","venue":"Journal of Intelligent Information Systems","url":""},
+    {"year":"2016","title":"Analysis and Prediction of Fluctuations for Sector Price Indices with Cross-Correlation and Association Mining Based Networks: Tehran Stock Exchange Case","authors":"Arash Negahdari Kia, Saman Haratizadeh, Zainabolhoda Heshmati","venue":"Bonfring International Journal of Industrial Engineering and Management Science","url":"https://doi.org/10.9756/BIJIEMS.10437"},
+    {"year":"2016","title":"SibRank: Signed bipartite network analysis for neighbor-based collaborative ranking","authors":"Bita Shams, Saman Haratizadeh","venue":"Physica A: Statistical Mechanics and its Applications","url":""},
+    {"year":"2015","title":"An XCS-Based Algorithm for Classifying Imbalanced Datasets","authors":"Hooman Sanatkar, Saman Haratizadeh","venue":"International Journal of Intelligent Systems","url":""},
+    {"year":"2013","title":"An Analytical Framework for Web Information Filtering Techniques","authors":"Narges Sadat Khozooii, Saman Haratizadeh, Mohammad Reza Keyvanpour","venue":"International Journal of Hybrid Information Technology","url":""},
+    {"year":"2013","title":"Prediction of USD/JPY exchange rate time series directional status by KNN with dynamic time warping AS distance function","authors":"Arash Negahdari Kia, Saman Haratizadeh, Hadi Zare","venue":"Bonfring International Journal of Data Mining","url":"https://doi.org/10.9756/BIJDM.4658"}
+  ],
   datasets: [
     // Edit the dataset details and repository URL, then set enabled to true.
     { enabled: false, slug: "example-dataset", title: "Example dataset", description: "Short description of the dataset.", year: "", version: "", type: "", size: "", license: "", status: "", overview: "Describe the dataset and how it was collected.", contents: [], intendedUse: "", limitations: "", creators: [], citation: "", keywords: [], links: [{ label: "Dataset repository", url: "https://github.com/YOUR-LAB-USERNAME/example-dataset" }], relatedPublications: [] }
   ],
-  links: { linkedin: "", github: "", bluesky: "", codeCollection: "", datasetCollection: "", fullPublications: "" },
+  links: { linkedin: "", github: "", bluesky: "", codeCollection: "", datasetCollection: "", fullPublications: "https://scholar.google.com/citations?user=e603zvIAAAAJ&hl=en" },
   settings: { sections: { lab: { top: true, research: true, publications: true, people: true, join: true, profile: true, contact: true } } },
   ui: { lab: {
-    label1: "About", label2: "Research", resourcesNav: "Code & datasets", label3: "Publications", label4: "People", joinNav: "Join the lab", label5: "Contact",
+    label1: "About", label2: "Research areas", resourcesNav: "Code & datasets", label3: "Publications", label4: "Members", joinNav: "Prospective students", label5: "Contact",
     label8: "About the laboratory", label9: "Research areas", label12: "The research program develops methods for temporal, relational, and high-dimensional data.",
     resourcesHeading: "Code and datasets",
-    label10: "Selected publications", label20: "Complete publication record", label11: "People", label13: "Current members", label14: "Alumni",
+    label10: "Publications", label20: "Google Scholar", label11: "Members", label13: "Current members", label14: "Alumni",
     joinHeading: "Prospective students", applyButton: "Email the lab", label15: "Principal investigator", label17: "Contact", label18: "Email", label19: "Address"
   } }
 };

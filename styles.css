@@ -181,8 +181,14 @@ a:hover { text-decoration: underline; }
 .page-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 255px;
-  gap: 55px;
+  grid-template-rows: auto 1fr;
+  column-gap: 55px;
+  row-gap: 24px;
 }
+
+.main-column { grid-column: 1; grid-row: 1 / span 2; min-width: 0; }
+.sidebar--profile { grid-column: 2; grid-row: 1; }
+.sidebar--contact { grid-column: 2; grid-row: 2; }
 
 .content-section { margin-top: 27px; }
 .main-column > .content-section:first-child { margin-top: 0; }
@@ -273,6 +279,10 @@ a:hover { text-decoration: underline; }
 
 .people-group { margin-left: 29px; }
 .people-group--secondary { margin-top: 22px; }
+.alumni-link { display: inline-block; margin-top: 12px; }
+.alumni-intro { margin: 7px 0 24px; color: var(--muted); font-size: 12px; }
+.alumni-page h1 { margin: 0; font-size: 30px; font-weight: 500; }
+.alumni-page .people-group--secondary { margin: 0; }
 .people-group > h3 { margin: 0 0 7px; font-size: 13px; font-weight: 600; }
 
 .people-group--secondary .people-list {
@@ -408,9 +418,9 @@ a:hover { text-decoration: underline; }
   .primary-nav { gap: 5px 12px; }
   .abstract { display: block; }
   .abstract > h2 { margin-bottom: 10px; }
-  .page-grid { display: block; }
-  .sidebar { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; margin-top: 38px; }
-  .sidebar-section + .sidebar-section { margin-top: 0; }
+  .page-grid { display: flex; flex-direction: column; gap: 0; }
+  .sidebar--profile { margin-bottom: 26px; }
+  .sidebar--contact { margin-top: 34px; }
   .people-group--secondary .people-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .dataset-item { grid-template-columns: minmax(0, 1fr) 230px; }
   .software-item { grid-template-columns: minmax(0, 1fr) 120px 140px; }
@@ -444,7 +454,6 @@ a:hover { text-decoration: underline; }
   .people-group--secondary .person-row { padding-block: 7px; }
   .people-group--secondary .person-row p { margin-top: 2px; }
   .sidebar { display: block; }
-  .sidebar-section + .sidebar-section { margin-top: 24px; }
   .site-footer { display: block; }
   .site-footer a { display: inline-block; margin-top: 5px; }
 }
