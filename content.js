@@ -10,7 +10,7 @@ window.LAB_CONTENT = {
     professorSiteUrl: "https://haratizadeh.github.io",
     heroLead: "Go deeper into learning.",
     heroSummary: "Explore the limits of familiar ideas, ask new questions, and enjoy creating what comes next.",
-    image: "assets/lab-workspace.png",
+    image: "assets/labpic.jpg",
     imageAlt: "KDD",
     imageCaption: "",
     email: "haratizadeh@ut.ac.ir",
